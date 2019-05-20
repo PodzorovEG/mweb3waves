@@ -9,8 +9,8 @@ class App extends React.Component {
     render() {
         return (
             <div className="container">
-    		    <input className="btn btn-primary" type="submit" value="Утро - " 
-                onClick={() => {alert("наверно - доброе!");}}/>
+    		    <input className="btn btn-primary" type="submit" value="Alerter" 
+                onClick={() => {alert("T16 click-null");}}/>
     	    </div>
         )
     }
