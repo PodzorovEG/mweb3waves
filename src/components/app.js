@@ -12,7 +12,7 @@ class App extends React.Component {
     		    <input className="btn btn-primary" type="submit" value="Alerter" 
                 onClick={() => {alert("T16 click-null");}}/>
     	    </div>
-        )
+        );
     }
 }
 
