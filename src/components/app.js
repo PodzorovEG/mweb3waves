@@ -24,8 +24,10 @@ class App extends React.Component {
     }
     render() {
         return(
-          <input className="btn btn-primary" type="submit" value="Auth" 
-          onClick={this.authFunc} />
+            <div className="container">
+                <input className="btn btn-primary" type="submit" value="Auth" 
+                onClick={this.authFunc} />
+            </div>
           )
     }
 }
@@ -34,6 +36,3 @@ const app = document.getElementById('app');
 if(app){
     ReactDOM.render(<App/>, app);
 }
-/*
-           return (<div className="container"></div>);
-*/
